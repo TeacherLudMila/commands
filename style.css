@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* GENERAL - start */
+:root{
+    --font-family: 'Montserrat', sans-serif;
+    --blue: #0042EB;
+    --purple: #960796;
+    --aqua: #3AB19B;
+    --text-color: #161616;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font-family);
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+h2 {
+    margin: 50px 0 30px;
+}
+span{
+    font-weight: 600;
+}
+/* GENERAL - end */
+
+/* CONSOLE - start */
+.console{
+    margin: 50px 0;
+}
+.console p{
+    border-left: 2px solid var(--blue);
+    padding: 8px 15px;
+    color: var(--text-color);
+}
+.console__wrap p span{
+    color: var(--blue);
+}
+/* CONSOLE - end */
+
+/* GIT - start */
+.git{
+    margin: 50px 0;
+}
+.git ul{
+    list-style: none;
+    padding-left: 0;
+}
+.git ul li{
+    margin: 16px 0;
+    padding: 8px 15px;
+    position: relative;
+}
+.git ul li:before{
+    content: '';
+    width: 2px;
+    height: 100%;
+    background-color: var(--purple);
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/* .git{
+    margin: 50px 0;
+}
+.git ul{
+    padding: 0;
+}
+.git ul li{
+    list-style: none;
+    padding: 8px 15px;
+    margin: 16px 0;
+    position: relative;
+}
+.git ul li:before{
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: 100%;
+    background-color: var(--purple);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.git ul li span:nth-of-type(1){
+    color: var(--purple);
+}
+.git ul li span:nth-of-type(2){
+    color: var(--aqua);
+} */
+/* GIT - end */
